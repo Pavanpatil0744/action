@@ -1,0 +1,39 @@
+{
+  "name": "github-action-example-node",
+  "version": "1.0.0",
+  "description": "A sample node.js application that uses github actions for CI and CD",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --forceExit --runInBand --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavdhasmana/github-action-example-node.git"
+  },
+  "keywords": [
+    "node.js",
+    "github",
+    "github",
+    "actions",
+    "CI",
+    "CD"
+  ],
+  "author": "abhinav dhasmana (abhinav.dhasmana@live.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinavdhasmana/github-action-example-node/issues"
+  },
+  "homepage": "https://github.com/abhinavdhasmana/github-action-example-node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
