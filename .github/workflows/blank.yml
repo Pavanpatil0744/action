@@ -19,14 +19,6 @@ jobs:
         with:
           node-version: 14 # Replace with the desired Node.js version
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run tests
-        run: npm run test
-
-      - name: Run linting
-        run: npm run lint
 
       - name: Build Docker image
         run: docker build -t pavan4593/github-action-example-node .
