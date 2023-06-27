@@ -21,7 +21,7 @@ jobs:
       - name: docker build
         uses: actions/docker/cli@master
         with:
-          args: build -t abhinavdhasmana/github-action-example-node .
+          args: build -t pavan4593/github-action-example-node .
       - name: docker login
         uses: actions/docker/login@master
         env:
@@ -30,4 +30,4 @@ jobs:
       - name: docker push
         uses: actions/docker/cli@master
         with:
-          args: push abhinavdhasmana/github-action-example-node
+          args: push pavan4593/github-action-example-node
