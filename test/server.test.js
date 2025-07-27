@@ -1,5 +1,5 @@
 const supertest = require('supertest');
-https://capture.vkyc.hdfcbank.com/captures?t=XO5FqWyqhTDg
+
 const app = require('../app');
 
 const agent = supertest.agent(app);
